@@ -12,15 +12,14 @@
 
 # 功能演示
 1. 闲聊模块
-![image](https://user-images.githubusercontent.com/33863441/113966328-7b21e280-9861-11eb-8174-09c6e79af947.png)
+![image](https://user-images.githubusercontent.com/33863441/113966543-d9e75c00-9861-11eb-9491-046741379da3.png)
 
 2. 情绪识别模块
-![image](https://user-images.githubusercontent.com/33863441/113966375-912fa300-9861-11eb-92a4-7c636af915e2.png)
+![image](https://user-images.githubusercontent.com/33863441/113966556-df44a680-9861-11eb-8f46-fefbdaf978ad.png)
 
 3. 心理咨询模块
-![image](https://user-images.githubusercontent.com/33863441/113966411-a0aeec00-9861-11eb-887a-46ed9b42dce1.png)
-![image](https://user-images.githubusercontent.com/33863441/113966392-9ab90b00-9861-11eb-9a17-5d5aa2abf024.png)
-![image](https://user-images.githubusercontent.com/33863441/113966418-a3114600-9861-11eb-9032-14fd7e1f73d5.png)
+![image](https://user-images.githubusercontent.com/33863441/113966567-e53a8780-9861-11eb-90bc-f8fc6beb300a.png)
+
 
 4. 心情记录
-![image](https://user-images.githubusercontent.com/33863441/113966451-b2908f00-9861-11eb-9c1c-d29f453ed731.png)
+![image](https://user-images.githubusercontent.com/33863441/113966580-ea97d200-9861-11eb-8c83-72f75358f248.png)
