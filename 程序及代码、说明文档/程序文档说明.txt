@@ -1,0 +1,38 @@
+1. 代码运行环境
+服务器：tf2.0 python3.6 pycharm 
+客户端：android studio
+2. 文件介绍
+【聊天机器人服务器代码.zip】
+包含目录及主要文件：
+dict：词典
+ltp: 哈工大ltp文件（为减少压缩包大小，该文件不提供，可自行下载）
+model_data: 训练的模型
+train_data: 训练文件
+analyze_attr.py : 属性分析
+app.py 测试程序
+class_check.py/exam_check.py/emotion_rule.py/special_rule.py: 规则文件
+data_process.py：文本预处理
+data_util.py: 训练文本预处理
+execute.py: 训练执行文件
+getConfig.py: 获取配置参数
+seq2seq.ini：seq2seq的参数
+seq2seqModel.py: seq2seq代码
+server.py: 聊天对话服务器
+face_expression: 面部识别
+tf_reply.py: 生成对话调用
+【聊天机器人安卓客户端.zip】
+包含目录及主要文件：
+重要目录：app\src\main\java\com\robot\tuling 下的文件为活动文件
+                 app\src\main\res 下的文件为一些基础参数、图片、xml布局文件
+AboutActivity: 关于
+BaseActivity: 基础活动
+FaceActivity: 面部识别活动
+HelpActivity: 心理咨询
+MainActivity: 闲聊
+MoodActivity: 心情记录
+adapter: 适配器
+constant: 参数
+control: 导航栏管理器
+entity：消息文本类
+【聊天机器人.apk】
+聊天机器人安卓安装包

@@ -1,0 +1,35 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://dl.bintray.com/sfsheng0322/maven' }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.1'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://dl.bintray.com/sfsheng0322/maven' }
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    }
+}
+
+allprojects.each { p ->
+    p.buildDir "bin"
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

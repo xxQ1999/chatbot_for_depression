@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bk">
+
+    <include layout="@layout/app_base_toolbar" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_ccx"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@layout/app_base_toolbar"
+        android:src="@drawable/uma" />
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/emoji_result"
+        android:clickable="false"
+        android:layout_alignLeft="@+id/btn_get_photo"
+        android:text="识别结果：" />
+
+    <TextView
+        android:id="@+id/emoji_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:text="暂无"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_grey_photo"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btn_get_photo_from_album"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:text="识别表情" />
+
+    <Button
+        android:id="@+id/btn_get_photo_from_album"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:text="从相册中选图片" />
+
+    <Button
+        android:id="@+id/btn_get_photo"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/btn_grey_photo"
+        android:layout_marginStart="27dp"
+        android:text="拍摄图片" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_about"
+        android:textColor="@color/font_black_2"
+        android:text="@string/app_name"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/font_size_big"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/tv_version_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone"
+        >
+
+    </LinearLayout>
+
+</RelativeLayout>

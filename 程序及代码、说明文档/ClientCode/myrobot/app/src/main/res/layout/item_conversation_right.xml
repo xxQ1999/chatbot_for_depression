@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bk"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="1分钟前"
+        android:textColor="@color/font_black_3"
+        android:textSize="11sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_cat"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/bk"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_toLeftOf="@+id/civ_avatar">
+
+
+            <com.github.library.bubbleview.BubbleTextVew
+                android:id="@+id/btv_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone|email"
+                android:padding="10dp"
+                android:text="你好！"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:angle="5dp"
+                app:arrowHeight="10dp"
+                app:arrowLocation="right"
+                app:arrowPosition="14dp"
+                app:arrowWidth="8dp"
+                app:bubbleColor="@color/selector_conversation_right"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,1 @@
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":4,"versionName":"1.5.0","enabled":true,"outputFile":"opencv-360-debug.aar","fullName":"360Debug","baseName":"360-debug"},"path":"AndroidManifest.xml","properties":{"packageId":"org.opencv","split":""}}]

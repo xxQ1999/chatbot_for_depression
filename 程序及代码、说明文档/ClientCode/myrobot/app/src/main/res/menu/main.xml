@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help"/>
+    <item
+        android:id="@+id/action_mood"
+        android:title="@string/mood_record"/>
+    <item
+        android:id="@+id/action_socket"
+        android:title="服务器IP修改"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/action_face"
+        android:title="情绪识别"/>
+
+</menu>

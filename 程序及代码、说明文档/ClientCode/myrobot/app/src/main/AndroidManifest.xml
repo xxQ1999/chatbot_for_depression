@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.robot.tuling"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.WEITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".TulingApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_ai"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme,android:allowBackup"
+
+        >
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5e640fe7570df35aeb00055e"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${umengHolder}"/>
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.AboutActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.NewsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.DetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.HelpActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.MoodActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.SocketActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.FaceActivity"
+            android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>

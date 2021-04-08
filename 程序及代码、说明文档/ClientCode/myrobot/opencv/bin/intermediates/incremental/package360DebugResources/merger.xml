@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\main\res"/><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\bin\generated\res\rs\360\debug"/><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\bin\generated\res\resValues\360\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\main\res"><file path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="CameraBridgeViewBase">
+       <attr format="boolean" name="show_fps"/>
+       <attr format="integer" name="camera_id">
+          <enum name="any" value="-1"/>
+          <enum name="back" value="99"/>
+          <enum name="front" value="98"/>
+       </attr>
+    </declare-styleable></file></source><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\bin\generated\res\rs\360\debug"/><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\bin\generated\res\resValues\360\debug"/></dataSet><dataSet config="360$Generated" generated="true"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\360\res"/></dataSet><dataSet config="360" generated-set="360$Generated"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\360\res"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\debug\res"/></dataSet><dataSet config="360Debug$Generated" generated="true"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\360Debug\res"/></dataSet><dataSet config="360Debug" generated-set="360Debug$Generated"><source path="C:\Users\xuxiaoqing.DESKTOP-U33N25B\Desktop\bysj\okhttp\ttt\opencv\src\360Debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="CameraBridgeViewBase"><attr format="boolean" name="show_fps"/><attr format="integer" name="camera_id">
+          <enum name="any" value="-1"/>
+          <enum name="back" value="99"/>
+          <enum name="front" value="98"/>
+       </attr></declare-styleable></configuration></mergedItems></merger>
