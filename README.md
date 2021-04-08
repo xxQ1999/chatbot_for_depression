@@ -1,5 +1,6 @@
 # chatbot_for_depression
-本科毕设，面向高校学生抑郁心理的聊天机器人
+本科毕设，面向高校学生抑郁心理的聊天机器人。
+整体做的比较粗糙，从0开始学NLP，功能也不好，对话很局限 = =。
 # 介绍
 1. 闲聊对话多采用规则匹配，基于RNN的Seq2Seq模型;
 2. 以Android App形式实现;
@@ -19,7 +20,6 @@
 
 3. 心理咨询模块
 ![image](https://user-images.githubusercontent.com/33863441/113966567-e53a8780-9861-11eb-90bc-f8fc6beb300a.png)
-
 
 4. 心情记录
 ![image](https://user-images.githubusercontent.com/33863441/113966580-ea97d200-9861-11eb-8c83-72f75358f248.png)
